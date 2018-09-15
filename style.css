@@ -68,8 +68,8 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	text-align: center;
-	background-color: #000; 
-	color: white;
+	background-color: #F2F2F2;
+	color: 000;
 }
 
 p {
@@ -79,22 +79,26 @@ p {
 }
 
 a {
-	color: #6bf;
+	color: #ff6f69;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
+h1 {
+	font-size: 5em;
+	font-family: 'Roboto', sans-serif;
+}
+
 
 h3 {
 	display: inline-block;
-	border-top: 2px solid #b3abb6;
-	border-bottom: 2px solid #b3abb6;
+	border-top: 2px solid #88d8b0;
+	border-bottom: 2px solid #88d8b0;
 	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
 	margin: 40px 0 20px;
 	padding: 20px;
 }
@@ -108,22 +112,15 @@ BANNER
 
 header {
 	margin: 100px 0 40px 0;
-	color: #d9b69e;
-}
-
-h1 {
-	font-size: 5em;
-	font-weight: 700;
-	font-family: 'Roboto', sans-serif;
+	color: #96ceb4
 }
 
 h2::before {
 	content: "</>"; 
-	color: #d9b69e;
 	display: block;
 	font-size: 2.5em;
 	margin-bottom: 20px;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 h2 {
@@ -145,11 +142,6 @@ SUMMARY
 .summary p:last-child {
 	margin-top: 20px;
 }
-
-
-
-
-
 
 /* 
 font-family: 'Eczar', serif;
