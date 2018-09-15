@@ -73,8 +73,16 @@ body {
 }
 
 p {
-	width: 80%;
+	width: 70%;
 	margin: auto;
+}
+
+a {
+	color: #6bf;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 /*
@@ -84,7 +92,7 @@ BANNER
 */
 
 header {
-	margin: 200px 0 100px 0;
+	margin: 200px 0 40px 0;
 	color: #d9b69e;
 }
 
@@ -98,6 +106,22 @@ h2 {
 	text-transform: uppercase;
 	font-size: 1.2em;
 }
+
+/*
+==================
+SUMMARY
+==================
+*/
+
+.summary {
+	margin-bottom: 100px;
+	font-size: 1.1em;
+}
+
+.summary p:last-child {
+	margin-top: 20px;
+}
+
 
 
 
