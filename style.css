@@ -125,6 +125,46 @@ SUMMARY
 
 /*
 ==================
+ASIDE
+==================
+*/
+
+.wrapper {
+	display: flex;
+	width: 70%;
+	margin: auto;
+	font-weight: 300;
+}
+
+.wrapper div {
+	flex: 1;
+}
+
+li, li a {
+	color: #aaa;
+	font-style: normal;
+}
+
+li {
+	margin-bottom: 8px;
+	font-style: italic;
+}
+
+li a:hover {
+	text-decoration: underline;
+	text-decoration-color: #63dd69;
+	color: #333;
+	transition: all .3s;
+}
+
+@media (max-width: 784px) {
+	.wrapper {
+		display: block;
+	}
+}
+
+/*
+==================
 FOOTER
 ==================
 */
@@ -161,28 +201,4 @@ footer a {
 
 footer a:hover {
 	text-decoration: none;
-}
-
-/*
-==================
-ASIDE
-==================
-*/
-
-.wrapper {
-	display: flex;
-	width: 70%;
-	margin: auto;
-}
-
-.wrapper div {
-	flex: 1;
-}
-
-
-
-@media (max-width: 784px) {
-	.wrapper {
-		display: block;
-	}
 }
