@@ -65,6 +65,13 @@ p {
 	margin: auto;
 }
 
+h1 {
+	font-size: 3em;
+	color: #fe4a49;
+	font-family: 'Eczar', serif;
+	font-weight: 700;
+}
+
 /* 
 font-family: 'Eczar', serif;
 font-family: 'Work Sans', sans-serif;
