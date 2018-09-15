@@ -1,6 +1,9 @@
 /* css Zen Garden default style v1.02 */
 /* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
+/*Import Eczar and Work Sans fonts*/
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700|Work+Sans:300,400,700');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,3 +53,12 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* 
+font-family: 'Eczar', serif;
+font-family: 'Work Sans', sans-serif;
+*/
