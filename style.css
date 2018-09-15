@@ -2,7 +2,7 @@
 /* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
 /*Import Roboto and Work Sans fonts*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Work+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Work+Sans:300,400,700');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -88,16 +88,19 @@ a:hover {
 
 h1 {
 	font-size: 5em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
+	background: -webkit-linear-gradient(45deg, #85ac90, #88d8b0);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
-
 
 h3 {
 	display: inline-block;
 	border-top: 2px solid #88d8b0;
 	border-bottom: 2px solid #88d8b0;
 	font-size: 2em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	margin: 40px 0 20px;
 	padding: 20px;
@@ -112,7 +115,7 @@ BANNER
 
 header {
 	margin: 100px 0 40px 0;
-	color: #96ceb4
+	color: #96ceb4;
 }
 
 h2::before {
@@ -142,8 +145,3 @@ SUMMARY
 .summary p:last-child {
 	margin-top: 20px;
 }
-
-/* 
-font-family: 'Eczar', serif;
-font-family: 'Work Sans', sans-serif;
-*/
